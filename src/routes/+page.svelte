@@ -33,7 +33,7 @@
       </div>
       <h2 class="text-lg font-bold">Attachments</h2>
       {#each challenge.attachments as attachment}
-        <a href={attachment.url} class="underline">
+        <a href={attachment.url} class="underline block">
           {attachment.name}
         </a>
       {/each}
